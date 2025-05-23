@@ -70,6 +70,10 @@ h3{
     }
 }
 
+.pink{
+    color : #e966a0cc;
+}
+
 .link{
     color : var(--green-link);
 
@@ -373,6 +377,7 @@ header{
         button{
             border: none;
             width: fit-content;
+            font-size: 15px;
         }
     }
 }
@@ -407,6 +412,7 @@ footer{
                 background-color: #886a83b5;
                 border-radius: 25px;
                 padding : 9px;
+                cursor: pointer;
 
                 &:hover{
                     color : #2f5730;
@@ -432,7 +438,7 @@ footer{
         }
     } 
 
-    section#projects > div > div > article > img{
+    #projects > div > div > article > img{
         height : 180px
     }
 }
@@ -446,10 +452,50 @@ footer{
         display : block
     }
 
-    section#profile h1 {
-        font-size: 54px;
+    #profile > div{
+        flex-direction: column;
+
+        img{
+            margin-left :calc(50% - 100px) ;
+        }
+
+        h1 {
+            font-size: 54px;
+        }
     }
 
-    
+    #about{
+        >div{
+            flex-direction: column;
+        }
+    }
+
+    #projects{
+        > div > div{
+            flex-direction: column;
+        }
+    }
+
+    #contact form{
+        grid-template-columns: 1fr;
+
+        label[for="input-mail"]{
+            grid-row:3 ;
+        }
+    }
+
+    footer >div{
+        flex-direction: column;
+
+        #icone-container{
+
+            width : fit-content;
+            margin : 15px auto
+        }
+
+        p{
+            text-align: left;
+        }
+    }
 }
 
