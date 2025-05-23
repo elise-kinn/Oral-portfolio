@@ -77,6 +77,8 @@ h3{
 
 .link{
     color : var(--green-link);
+    display: block;
+    margin-bottom : 5px;
 
     i{
         color : var(--green-link);
