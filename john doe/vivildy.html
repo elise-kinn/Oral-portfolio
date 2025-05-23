@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>John Doe Project</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <script src="https://kit.fontawesome.com/f56ca831ee.js" crossorigin="anonymous"></script>
+    
+    </head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="img/Logo.png" alt="logo john doe">
+            <p>Développeur Web et Web Mobile</p>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" id="anim-1">Accueil</a></li>
+                <li><a href="#" id="anim-2">Qui suis-je ?</a></li>
+                <li><a href="formation.html" id="anim-3">Ma formation</a></li>
+                <li><a href="#" id="anim-4">Mes compétences</a></li>
+                <li><a href="projets.html" id="anim-5" class="red-nav">Mes projets</a></li>
+                <li>
+                    <input type="checkbox" id="contact-input-nav">
+                    <label class="contact-btn" id="anim-6" for="contact-input-nav">Contactez-moi</label>
+                    <form action="" id="contact-form-nav">
+                        <label for="contact-input-nav">X</label>
+                        <div>
+                            <h4>Me Contacter</h4>
+                            <label for="name-input">Votre nom :</label>
+                            <input type="text" placeholder="Votre Nom" id="name-input" required>
+                            <label for="mail-input">Votre email :</label>
+                            <input type="text" placeholder="Votre email" id="mail-input" required>
+                            <label for="message-input">Votre message :</label>
+                            <textarea type="text" id="message-input">Votre message</textarea>
+                            <button>Envoyer la demande</button>
+                        </div>
+                    </form>
+                </li>
+                
+            </ul>
+            <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="titre-rouge">
+            <h1>Vividly - Intégration Mobile First</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam quas molestias doloribus dolore! Neque nulla blanditiis, suscipit voluptates vero quia qui tempora minima corporis quibusdam dolor eligendi fugit expedita.</p>
+        </section>
+
+        <section id="section-desc-formation">
+            <div>
+                <h2>Description du projet</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam quas molestias</p>
+                <p>doloribus dolore! Neque nulla blanditiis, suscipit voluptates vero quia qui tempora minima corporis quibusdam dolor eligendi fugit expedita.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam praesentium blanditiis aliquam beatae eius pariatur cupiditate sapiente facere eveniet harum ducimus, vel ab numquam? Perspiciatis tenetur animi temporibus cumque molestias.</p>
+            </div>
+            <img src="img/projet2.PNG" alt="visuel du projet">
+        </section>
+
+        <section id="section-competences">
+            <h2>Les compétences mobilisées</h2>
+            <div>
+                <div>
+                    <details>
+                        <summary>
+                            <span>Langages de programmation</span>
+                        </summary>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>PHP</li>
+                            <li>Python</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                            <span>Frameworks et bibliothèques</span>
+                        </summary>
+                        <ul>
+                            <li>Front-End</li>
+                            <ul>
+                                <li>React.js</li>
+                                <li>Angular</li>
+                                <li>Vue.js</li>
+                                <li>Jquery</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <li>Back-End</li>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                            </ul>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                            <span>Bases de données</span>
+                        </summary>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                             <span>Outils de développement</span>
+                        </summary>
+                        <ul>
+                            <li>Git et GitHub</li>
+                            <li>Babel</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </details>
+                </div>
+                <div>
+                    <details>
+                        <summary>
+                            <span>Conception Web</span>
+                        </summary>
+                        <ul>
+                            <li>Responsive Web Design</li>
+                            <li>Connaissance des principaux UX/UI</li>
+                            <li>Adobe XD / Figma / Sketch</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                            <span>Services Web</span>
+                        </summary>
+                        <ul>
+                            <li>APIs Rest</li>
+                            <li>GraphQL</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                            <span>Sécurité</span>
+                        </summary>
+                        <ul>
+                            <li>Principe de sécurité Web (OWASP)</li>
+                            <li>Gestion des sessions et des cookies</li>
+                            <li>Authentification et autorisation</li>
+                            <li>SSL/TLS</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                            <span>Autres compétences</span>
+                        </summary>
+                        <ul>
+                            <li>Testing et Débogage</li>
+                            <li>Performances et Optimisations</li>
+                            <li>SEO (Search Engine Optimisation)</li>
+                            <li>Accessibilité Web (WCAG)</li>
+                            <li>Gestion de projet et collaboration en équipe</li>
+                            <li>Veille technologique et apprentissage continu</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-projets">
+            <h2>Découvrez aussi ces projets</h2>
+            <a id="voir-tous" href="projets.html">Voir tous les projets</a>
+            <div>
+                <article>
+                    <img src="img/projet1.PNG" alt="visuel du projet Home Key">
+                    <h3>Home Key - Intégration HTML & CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium iure, autem omnis dolorum, expedita officiis facilis soluta officia maiores nihil nisi repudiandae suscipit nostrum commodi rem, repellendus explicabo eum...</p>
+                    <div>Font-end</div>
+                </article>
+                <a href="homekey.html">Lire la suite</a>
+            </div>
+            
+            <div>
+                <article>
+                    <img src="img/projet2.PNG" alt="visuel du projet Vividly">
+                    <h3>Vividly - Intégration Mobile First</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium iure, autem omnis dolorum, expedita officiis facilis soluta officia maiores nihil nisi repudiandae suscipit nostrum commodi rem, repellendus explicabo eum...</p>
+                    <div>Front-end</div>
+                </article>
+                <a href="vivildy.html">Lire la suite</a>
+            </div>
+
+            <div id="last-proj-div">
+                <article>
+                    <img src="img/projet3.PNG" alt="visuel du projet John Doe">
+                    <h3>Portfolio de Développeur Web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laudantium iure, autem omnis dolorum, expedita officiis facilis soluta officia maiores nihil nisi repudiandae suscipit nostrum commodi rem, repellendus explicabo eum...</p>
+                    <div>Back-End</div>
+                </article>
+                <a href="portfolio.html">Lire la suite</a>
+            </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>Mon super site web !</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
