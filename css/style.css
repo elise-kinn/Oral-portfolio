@@ -516,6 +516,11 @@ footer{
         img {
             width : 200px
         }
+
+        >div:after{
+        right: 90px;
+
+        }
     } 
 
     #projects > div > div > article > img{
@@ -541,6 +546,10 @@ footer{
 
         h1 {
             font-size: 54px;
+        }
+
+        >div:after{
+            right: -90px;
         }
     }
 
