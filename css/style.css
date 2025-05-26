@@ -156,10 +156,11 @@ header{
 
     &:before{
         content :"";
-        background-image: radial-gradient(#5d0046 2px, transparent 2px), radial-gradient(#5d0046 2px, transparent 2px);
-        background-size: 91px 91px;
-        background-position: 0 0, 45.5px 45.5px;
-        background-color: var(--pink-bandreau);
+
+        background-image: radial-gradient(#944594 4px, transparent 4px), radial-gradient(#7c657c 4px, transparent 4px);
+        background-size: 73px 73px;
+        background-position: 0 0, 36.5px 36.5px;
+        background-color: rgb(89 4 67 / 45%);
 
         width: 100%;
         height: 100%;
@@ -213,8 +214,8 @@ header{
                 font-size: 50px;
                 font-weight: 500;
                 background: #041f00;
-                background: linear-gradient(308deg,rgba(4, 31, 0, 1) 0%, rgba(214, 255, 209, 1) 100%);
-                color: #a6c09f;
+                background: linear-gradient(308deg, rgb(65 120 57) 0%, rgb(205 220 203) 100%);
+                color: #678f5c;
                 border-radius: 50px;
                 bottom: -20px;
                 right: 170px;
@@ -269,6 +270,7 @@ header{
                 i{
                     font-size: 46px;
                     margin-bottom : 13px;
+                    color: #c480ac;
                 }
             }
         }
